@@ -1,0 +1,7 @@
+#
+# system.prop for tf700
+#
+ro.epad.model=tf700t
+ro.product.model=tf700t
+ro.carrier=wifi-only
+ro.sf.lcd_density=240
