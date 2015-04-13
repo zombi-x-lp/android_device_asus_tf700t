@@ -42,6 +42,3 @@ TARGET_KERNEL_CONFIG := that_tf700t_defconfig
 # Specific 700 wifi defines
 WIFI_DRIVER_FW_PATH_STA     := "/system/vendor/firmware/bcm4330/fw_bcmdhd.bin"
 WIFI_DRIVER_FW_PATH_AP      := "/system/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin"
-
-#TWRP
-TW_THEME := landscape_hdpi
