@@ -40,5 +40,6 @@ TARGET_KERNEL_SOURCE := kernel/asus/tegra3/that1
 TARGET_KERNEL_CONFIG := that_tf700t_defconfig
 
 # Specific 700 wifi defines
+WIFI_DRIVER_FW_PATH_PARAM   := "/sys/module/bcmdhd/parameters/firmware_path"
 WIFI_DRIVER_FW_PATH_STA     := "/system/vendor/firmware/bcm4330/fw_bcmdhd.bin"
 WIFI_DRIVER_FW_PATH_AP      := "/system/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin"
